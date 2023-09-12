@@ -1,0 +1,446 @@
+{
+  "users": [
+    {
+      "nama_lengkap": "kr",
+      "email": "kebon@gmail.com",
+      "password": "kebonn",
+      "saldo": 895000,
+      "point": 1,
+      "id": 1
+    },
+    {
+      "nama_lengkap": "Caraka Wijaya",
+      "email": "kebon2@gmail.com",
+      "password": "kebonn",
+      "saldo": 1200000,
+      "point": 8,
+      "id": 2
+    },
+    {
+      "nama_lengkap": "Tri Anggoro",
+      "email": "jati@gmail.com",
+      "password": "kebonn",
+      "saldo": 3000000,
+      "point": 5,
+      "id": 3
+    },
+    {
+      "nama_lengkap": "rafansa Okta",
+      "email": "rafa@gmail.com",
+      "password": "kebonn",
+      "saldo": 4000000,
+      "point": 2,
+      "id": 5
+    },
+    {
+      "nama_lengkap": "Haekal Hafizh",
+      "email": "haekal@gmail.com",
+      "password": "kebonn",
+      "saldo": 3000000,
+      "point": 8,
+      "id": 6
+    },
+    {
+      "nama_lengkap": "Muhammad Rian",
+      "email": "rian@gmail.com",
+      "password": "kebonn",
+      "saldo": 1000000,
+      "point": 0,
+      "id": 7
+    },
+    {
+      "nama_lengkap": "Bayu Aja",
+      "email": "bayu@gmail.com",
+      "password": "kebonn",
+      "saldo": 1000000,
+      "point": 0,
+      "id": 8
+    },
+    {
+      "nama_lengkap": "carakka wijaya",
+      "email": "wijaya@gmail.com",
+      "password": "123456",
+      "saldo": 5250,
+      "point": 2,
+      "id": 9
+    }
+  ],
+  "events": [
+    {
+      "nama_event": "Konser Wibu",
+      "kategori_event": "anime",
+      "date": "2023-08-17",
+      "time": "20:00",
+      "kota": "tangerang",
+      "detail_lokasi": "Kos rafansa",
+      "jenis_event": "online",
+      "biaya": 50000,
+      "image_link": "https://www.shutterstock.com/image-photo/crowd-raised-hands-concert-festival-260nw-1586074294.jpg",
+      "max_peserta": 20,
+      "deskripsi_detail": "lorem lorem",
+      "deskripsi_singkat": "lorem ,wlladlwdioh3 ajdbbdu2 asjdba,jbdq qwjdb asdbhgyewd sduqud dudkjabda sajdbasbds degdw jsakjs jsdjka dsjdue dwhdu",
+      "discount": 10,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "nama_event": "Nobar Naruto",
+      "date": "2023-08-24",
+      "time": "20:00",
+      "biaya": 5000,
+      "image_link": "https://i.pinimg.com/736x/d3/4e/fa/d34efaf3eeb49b882e0e74aba875afcb.jpg",
+      "max_peserta": 35,
+      "deskripsi_singkat": "nobar naruto 500 episode",
+      "deskripsi_detail": "Naruto juga mendapatkan jajak pendapat popularitas pertamanya di seluruh dunia, berjudul NARUTOP99, untuk menentukan 99 karakter paling populer dari franchise tersebut, sebagai bagian dari peringatan 20 tahun anime tersebut.",
+      "discount": "5",
+      "detail_lokasi": "dirumah nya kebon",
+      "kota": "jakarta",
+      "jenis_event": "ofline",
+      "kategori_event": "anime",
+      "userId": "1",
+      "id": 3
+    },
+    {
+      "nama_event": "Nonton Wayang",
+      "date": "2023-08-23",
+      "time": "17:00",
+      "biaya": "100000",
+      "image_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD3_HCPRshaH0dNbIPEF2GTpSwL_SneV1uZA&usqp=CAU",
+      "max_peserta": 43,
+      "deskripsi_singkat": "nonton wayang sampai pagi",
+      "deskripsi_detail": "Dalam rangka memperingati 54 tahun berdirinya UKJGS, kami mempersembahkan Pagelaran Wayang 4.0 berupa penampilan wayang kulit, wayang wong, tari, dan karawitan yang bertajuk",
+      "discount": "10",
+      "detail_lokasi": "rumah caraka",
+      "kota": "tangerang",
+      "jenis_event": "ofline",
+      "kategori_event": "seni",
+      "userId": "5",
+      "id": 4
+    },
+    {
+      "nama_event": "Ngaji Sampai Pagi",
+      "date": "2023-08-26",
+      "time": "10:00",
+      "biaya": 0,
+      "image_link": "https://berkahberjamaah.com/uploads/images/article/full/Banner_SemuaBisaNgaji_1100x600.jpg",
+      "max_peserta": 500,
+      "deskripsi_singkat": "berlomba lomba dalam kebaikan",
+      "deskripsi_detail": "Di masjid al-hidayah\n\nRangkaian Acara:\n\nNgaji Bareng bada subuh (Khotmil quran bil ghoib) bersama JQH PCNU\nIstighosah Kubro (Istighosah, Yasin Fadilah, Tahlil, Ta’lim)\nBazzar sembako murah oleh LAZISNU Mulyoagung\nSantunan 10 Anak Yatim & Duafa\nPembacaan shalawat (pra acara)",
+      "discount": 0,
+      "detail_lokasi": "masjid al-hidayah",
+      "kota": "tangerang",
+      "jenis_event": "online",
+      "kategori_event": "seni",
+      "userId": "3",
+      "id": 5
+    },
+    {
+      "nama_event": "Ngobar Sampai Subuh",
+      "date": "2023-08-28",
+      "time": "19:00",
+      "biaya": 0,
+      "image_link": "https://www.gamelab.id/uploads/modules/NEWS/2019-12-12%20istilah-dunia-percodingan/4.png?1576149601723",
+      "max_peserta": 50,
+      "deskripsi_singkat": "ngoding bareng react js membuat mini project",
+      "deskripsi_detail": "Istilah dalam dunia coding\nJika kamu ingin mulai mempelajari coding atau pemrograman, beberapa istilah harus kamu ketahui terlebih dahulu, untuk mempermudah saat sudah melakukan coding nantinya. Dari beberapa istilah ini mungkin sebgaian sudah tidak asing lagi bagi kalian yang sudah sering menggunakan internet atau sering berselancar di mesin pencari, untuk mempersingkat waktu mari kita mulai dari istilah yang pertama.\n\n1. Agile atau Agile Software Development\nAgile adalah sebuah metode development software baik itu website, web application, ataupun mobile application yang fokus untuk menghasilkan secara terus-menerus sebuah software berkualitas tinggi dengan konsisten sehingga dapat meminimalisir biaya proyek dan meningkatkan nilai jual bisnis.\n\n2. AJAX (Asynchronous JavaScript and XML)\nSebuah teknik yang dapat dimungkinkan untuk membuat sebuah aplikasi website dalam interaktif. Jika kita lihat mulai dari pemanfaatan AJAX pada aplikasi website dimana ini dapat berkomunikasi dengan server pada latar belakang. Dengan begitu ini tidak akan mempengaruhi sebuah halaman web secara keseluruhannya.",
+      "discount": 0,
+      "detail_lokasi": "rumah haekal",
+      "kota": "bogor",
+      "jenis_event": "ofline",
+      "kategori_event": "edukasi",
+      "userId": "6",
+      "id": 6
+    },
+    {
+      "nama_event": "Purwadhika Career Network",
+      "date": "2023-08-29",
+      "time": "09:00",
+      "biaya": 30000,
+      "image_link": "https://api.purwadhikax.com/promos/promo-banner-mobile-1683801322208.jpeg",
+      "max_peserta": 49,
+      "deskripsi_singkat": "Purwadhika keren",
+      "deskripsi_detail": "Melalui program Job Connector Bootcamp, kami ingin membuka kesempatan untuk siapa saja yang memulai karir di industri digital. Oleh karena itu, untuk mengikuti program ini, peserta program tidak harus memiliki background marketing ataupun digital marketing sebelumnya.\n\nLulusan program Job Connector Bootcamp akan mendapatkan fasilitas job connection, namun untuk lebih berpeluang mendapatkan pekerjaan peserta program idealnya memiliki kriteria sebagai berikut:\n\nUsia kurang atau sama dengan 30 tahun;\nLulusan S1/sederajat atau memiliki pengalaman kerja minimal 1 tahun.\nNotes tambahan: Untuk praktek digital ads, peserta program akan dikenakan biaya tambahan maksimal sebesar Rp200.000.",
+      "discount": "10",
+      "detail_lokasi": "GOP 9",
+      "kota": "tangerang",
+      "jenis_event": "ofline",
+      "kategori_event": "edukasi",
+      "userId": "1",
+      "id": 8
+    },
+    {
+      "nama_event": "Belajar React",
+      "date": "2023-08-26",
+      "time": "09:00",
+      "biaya": "20000",
+      "image_link": "https://i.ytimg.com/vi/XUaniwUb5PM/maxresdefault.jpg",
+      "max_peserta": 49,
+      "deskripsi_singkat": "Javascript",
+      "deskripsi_detail": "lorem ipsum blablabla",
+      "discount": "10",
+      "detail_lokasi": "skyhouse kebon",
+      "kota": "tangerang",
+      "jenis_event": "ofline",
+      "kategori_event": "edukasi",
+      "userId": "6",
+      "id": 9
+    },
+    {
+      "nama_event": "Seminar Web Development",
+      "date": "2023-08-29",
+      "time": "08:00",
+      "biaya": "0",
+      "image_link": "https://static.vecteezy.com/system/resources/previews/001/825/830/original/business-seminar-gathering-or-company-meeting-discuss-and-evaluate-profit-reports-with-charts-and-analysis-flat-illustration-for-landing-page-web-website-banner-mobile-flyer-poster-ui-free-vector.jpg",
+      "max_peserta": "100",
+      "deskripsi_singkat": "Data Engineering Series #1 : Data di Antara Kita",
+      "deskripsi_detail": "Selamat datang di Data Engineering Series!\n\nPada series ini kita akan membahas seputar Data Engineering dengan tema \"Data di Antara Kita\"\n\nKita akan membahas bagaimana data dikelola oleh berbagai profesi di bidang data, termasuk Data Analis, Data Scientis, Machine Learning Engineer dan tentunya Data Engineer.  \n\nUntuk kamu yang ingin mendapatkan sertifikat kehadiran, silakan untuk mendaftar terlebih dahulu dengan klik “Daftar Gratis”.",
+      "discount": 0,
+      "detail_lokasi": "Jl. Batik Kumeli No.50, Sukaluyu,",
+      "kota": "jakarta",
+      "jenis_event": "ofline",
+      "kategori_event": "edukasi",
+      "userId": "1",
+      "id": 10
+    },
+    {
+      "nama_event": "Persija VS Persib",
+      "date": "2023-08-17",
+      "time": "10:00",
+      "biaya": "20000",
+      "image_link": "https://asset-2.tstatic.net/manado/foto/bank/images/Banner-laga-Persija-Jakarta-vs-Persib-Bandung-di-Indosiar.jpg",
+      "max_peserta": "1000",
+      "deskripsi_singkat": "Persib Bandung boyong 22 pemain ke markas Persija pada laga   Artikel ini telah tayang di TribunManado.co.id dengan judul LIVE STREAMING Persija vs Persib di Liga 1, Tayang Malam Ini Mulai Pukul 20.30 WIB, https://manado.tribunnews.com/2023/03/31/live-streaming-persija-vs-persib-di-liga-1-tayang-malam-ini-mulai-pukul-2030-wib.",
+      "deskripsi_detail": "Pada laga tunda pekan 28 ini, Persib Bandung membawa 22 pemain untuk menyatroni kandang Persija.\n\nMenariknya dalam skuad Persib terdapat nama Rezaldi Hehanusa yang merupakan mantan pemain Persija pada musim lalu.\n\nRezaldi Hehanusa didatangkan Persib dari Persija pada awal paruh kedua musim ini.\n\nKedatangan Rezaldi merupakan proyeksi jangka panjang pelatih Persib, Luis Milla.\n\nSementara itu dalam daftar pemain yang diboyong Luis Milla tida nampak nama penjaga gawang Persib Teja Paku Alam dan bek Achmad Jufriyanto.\n\n\n\nArtikel ini telah tayang di TribunManado.co.id dengan judul LIVE STREAMING Persija vs Persib di Liga 1, Tayang Malam Ini Mulai Pukul 20.30 WIB, ",
+      "discount": "5",
+      "detail_lokasi": "Lapangan GBK",
+      "kota": "",
+      "jenis_event": "ofline",
+      "kategori_event": "olahraga",
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "nama_event": "Konser Music",
+      "date": "2023-11-02",
+      "time": "07:00",
+      "biaya": "25000",
+      "image_link": "https://media.suara.com/pictures/970x544/2023/07/25/20359-peluang-festival-2023.jpg",
+      "max_peserta": "50",
+      "deskripsi_singkat": "Gairahkan Industri Musik & UMKM",
+      "deskripsi_detail": "Cirebon Network- Siapa nih penggemar Lyodra, Tiara, juga Judika? Yuk datang ke Cirebon Festival 2023 dan segera cek harga tiket keburu kehabisan!\n\nCirebon Festival akan digelar pada bulan Juni 2023 ini dengan menghadirkan sederet bintang tamu papan atas, seperti Lyodra, Tiara Andini, dan Judika.\n\nSelain Lyodra, Tiara Andini, dan Judika, Cirebon Festival 2023 nanti juga akan menghadirkan bintang tamu papan atas lainnya, seprti Rizky Febian, Marion Jola, MC Danny, Aldy Jadong, dan Danilla.",
+      "discount": "5",
+      "detail_lokasi": "BSD City",
+      "kota": "tangerang",
+      "jenis_event": "ofline",
+      "kategori_event": "seni",
+      "userId": "2",
+      "id": 12
+    },
+    {
+      "nama_event": "Cerita Cintaku",
+      "date": "2023-09-05",
+      "time": "20:00",
+      "biaya": "50000",
+      "image_link": "https://i.ytimg.com/vi/Z3kpDgsA9xs/maxresdefault.jpg",
+      "max_peserta": "50",
+      "deskripsi_singkat": "Cerita Cintaku adalah show komedi oleh Raditya Dika",
+      "deskripsi_detail": "Cerita Cintaku adalah show komedi oleh Raditya Dika. Show ini terbagi menjadi dua bagian: standup comedy oleh Raditya Dika dan interaksi bersama penonton.\n\nKeterangan: jika ada tulisan full booked bukan berarti tiket habis (sold out), itu hanya berarti sudah dipesan dan sedang menunggu dibayar. Jika ada yang gagal bayar, tiket tersedia kembali. Sering-sering cek halaman ini ya.\n\nSyarat & Ketentuan\n\nAcara ini hanya untuk 17 tahun ke atas.\nRegistrasi ulang dimulai 2 jam sebelum acara. Pintu masuk akan ditutup ketika acara berlangsung dan yang terlambat tidak diperbolehkan masuk.\nTidak diperbolehkan untuk menyalakan handphone ketika acara berlangsung. Segala perekaman berbentuk audio dan video akan ditindak sesuai hukum yang berlaku. Mereka yang melanggar akan dikeluarkan tanpa peringatan oleh penyelenggara acara.\nTiket yang sudah dibeli tidak dapat dikembalikan.\nE-Voucher tidak dapat dipindah-tangankan dan harus ditukarkan dengan tiket yang sah di tempat acara.\nWajib membawa dan menunjukan kartu identitas yang sah (KTP/Passpor/SIM) pada saat penukaran E-Voucher dengan tiket.\npanitia berhak melakukan langkah2 guna memastikan handphone tetap mati sepanjang pertunjukan",
+      "discount": "5",
+      "email_pembuat_acara": "2",
+      "detail_lokasi": "Cilendek Barat",
+      "kota": "bogor",
+      "jenis_event": "ofline",
+      "kategori_event": "komedi",
+      "userId": "2",
+      "id": 13
+    },
+    {
+      "nama_event": "Festival Detektif Conan",
+      "date": "2023-09-01",
+      "time": "12:00",
+      "biaya": "10000",
+      "image_link": "https://ae01.alicdn.com/kf/HTB1sapCgYZnBKNjSZFGq6zt3FXas.jpg_640x640q90.jpg",
+      "max_peserta": "20",
+      "deskripsi_singkat": "The Bride of Halloween   Artikel ini telah tayang di TribunStyle.com dengan judul Film Anime ke-25 Detective Conan: The Bride of Halloween Rilis Trailer, Ada Karakter Police Academy, https://style.tribunnews.com/2021/12/23/film-anime-ke-25-detective-conan-the-bride-of-halloween-rilis-trailer-ada-karakter-police-academy?page=all. Penulis: Gigih Panggayuh Utomo Editor: Triroessita Intan Pertiwi",
+      "deskripsi_detail": "Namun, orang berkostum misterius muncul dan menempelkan bom di lehernya.\n\nConan mendengar tentang insiden yang terjadi tiga tahun lalu dari Rei, dan mencoba melucuti bom lehernya.\n\nBagaimana kisah selengkapnya?\n\nNantikan saja film anime ini mulai rilis secara global.\n\nSayangnya, film ini khusus bagi para pecinta anime di Jepang terlebih dahulu.\n\nUntuk negara lain, termasuk Indonesia, tentu menunggu jadwal lebih lama dari waktu rilis di Jepang.\n\nTunggu kabar terbaru terkait perilisannya secara globa\n\n\n\nArtikel ini telah tayang di TribunStyle.com dengan judul Film Anime ke-25 Detective Conan: The Bride of Halloween Rilis Trailer, Ada Karakter Police Academy, https://style.tribunnews.com/2021/12/23/film-anime-ke-25-detective-conan-the-bride-of-halloween-rilis-trailer-ada-karakter-police-academy?page=all.\nPenulis: Gigih Panggayuh Utomo\nEditor: Triroessita Intan Pertiwi",
+      "discount": "5",
+      "detail_lokasi": "Mall Sumarecon",
+      "kota": "bekasi",
+      "jenis_event": "ofline",
+      "kategori_event": "anime",
+      "userId": "3",
+      "id": 14
+    },
+    {
+      "nama_event": "Nobar Anime",
+      "date": "2023-08-23",
+      "time": "20:00",
+      "biaya": 0,
+      "image_link": "https://www.areawibu.com/wp-content/uploads/2023/03/nanatsunomaken-1024x576.webp",
+      "max_peserta": 4,
+      "deskripsi_singkat": "Mari Habiskan Waktumu Dengan Nobar",
+      "deskripsi_detail": "Pertama-tama, musim summer biasanya menjadi waktu di mana anime-anime baru dan beberapa sekuel dari serial anime populer akan ditayangkan. Jadi, bagi mereka yang menyukai anime, menonton anime musim panas 2023 bisa menjadi kesempatan untuk menikmati karya-karya baru dari sutradara dan studio anime terkenal.\n\nSelain itu, menonton anime juga dapat membantu penggemar anime untuk tetap terhubung dengan komunitas anime di seluruh dunia. Banyak penggemar anime yang membahas seri anime baru dan terbaru di forum atau grup media sosial, sehingga menonton anime summer 2023 dapat membantu memperkuat hubungan antara penggemar anime dengan komunitas.\n\nBerikut ini adalah daftar anime summer 2023 yang wajib ditonton:",
+      "discount": 0,
+      "detail_lokasi": "Kos rafansa",
+      "kota": "tangerang",
+      "jenis_event": "ofline",
+      "kategori_event": "anime",
+      "userId": "5",
+      "id": 15
+    },
+    {
+      "nama_event": "Ngoding Bareng React JS",
+      "date": "2023-08-16",
+      "time": "20:00",
+      "biaya": 10000,
+      "image_link": "data:image/jpeg;base64,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",
+      "max_peserta": 10,
+      "deskripsi_singkat": "Ngoding lagi ngoding lagi",
+      "deskripsi_detail": "lorem ipsum bla bla bla",
+      "discount": 0,
+      "detail_lokasi": "GOP 9",
+      "kota": "tangerang",
+      "jenis_event": "ofline",
+      "kategori_event": "edukasi",
+      "userId": 9,
+      "id": 16
+    }
+  ],
+  "cetak_tiket": [
+    {
+      "id": 1,
+      "userId": 1,
+      "eventId": 1,
+      "kode_referal": "123"
+    },
+    {
+      "userId": "5",
+      "eventId": "3",
+      "kode_referal": "388773",
+      "id": 2
+    },
+    {
+      "userId": "5",
+      "eventId": "3",
+      "kode_referal": "044478",
+      "id": 3
+    },
+    {
+      "userId": "5",
+      "eventId": "1",
+      "kode_referal": "686057",
+      "id": 4
+    },
+    {
+      "userId": "6",
+      "eventId": "9",
+      "kode_referal": "585497",
+      "id": 5
+    },
+    {
+      "userId": "1",
+      "eventId": "3",
+      "kode_referal": "623184",
+      "id": 6
+    },
+    {
+      "userId": "3",
+      "eventId": "3",
+      "kode_referal": "319129",
+      "id": 7
+    },
+    {
+      "userId": "1",
+      "eventId": "3",
+      "kode_referal": "157173",
+      "id": 8
+    },
+    {
+      "userId": "1",
+      "eventId": "15",
+      "kode_referal": "675557",
+      "id": 9
+    },
+    {
+      "userId": "9",
+      "eventId": "4",
+      "kode_referal": "181539",
+      "id": 10
+    },
+    {
+      "userId": "9",
+      "eventId": "3",
+      "kode_referal": "986818",
+      "id": 11
+    },
+    {
+      "userId": "1",
+      "eventId": "3",
+      "kode_referal": "980778",
+      "id": 12
+    },
+    {
+      "userId": "1",
+      "eventId": "4",
+      "kode_referal": "690931",
+      "id": 13
+    },
+    {
+      "userId": "1",
+      "eventId": "4",
+      "kode_referal": "504599",
+      "id": 14
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "eventId": 1,
+      "userId": 1,
+      "comment": "lorem ipsum bla bla bla",
+      "rate": 4
+    },
+    {
+      "eventId": "5",
+      "userid": "2",
+      "comment": "latest comment",
+      "rate": 10,
+      "id": 2
+    },
+    {
+      "eventId": "1",
+      "userId": "1",
+      "comment": "mainnya hebat banget kak lastt",
+      "rate": 5,
+      "id": 3
+    },
+    {
+      "eventId": "1",
+      "userId": "1",
+      "comment": "baruuuu",
+      "rate": 5,
+      "id": 8
+    },
+    {
+      "eventId": "3",
+      "userId": "3",
+      "comment": "kebon mainnya hebat part2",
+      "rate": 5,
+      "id": 9
+    },
+    {
+      "eventId": "1",
+      "userId": "1",
+      "comment": "keren abis ",
+      "rate": 5,
+      "id": 10
+    },
+    {
+      "eventId": "4",
+      "userId": "1",
+      "comment": "Wow eventnya keren banget!",
+      "rate": 5,
+      "id": 11
+    }
+  ]
+}

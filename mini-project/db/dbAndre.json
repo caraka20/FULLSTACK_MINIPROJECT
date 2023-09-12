@@ -1,0 +1,82 @@
+{
+    "items": [
+    {
+      "id": 1,
+      "name": "Konser Rock",
+      "categoryId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Konser Jazz",
+      "categoryId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "name": "Pameran Buku",
+      "categoryId": 2,
+      "locationId": 4
+    },
+    {
+      "id": 4,
+      "name": "Pameran e-book",
+      "categoryId": 2,
+      "locationId": 1
+    },
+    {
+      "id": 5,
+      "name": "Pameran Buku",
+      "categoryId": 2,
+      "locationId": 3
+    },
+    {
+      "id": 6,
+      "name": "Pameran Atomotif",
+      "categoryId": 3,
+      "locationId": 3
+    },
+    {
+      "id": 7,
+      "name": "Pameran rumah",
+      "categoryId": 4,
+      "locationId": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "musik"
+    },
+    {
+      "id": 2,
+      "name": "buku"
+    },
+    {
+      "id": 3,
+      "name": "otomotif"
+    },
+    {
+      "id": 4,
+      "name": "real state"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Jakarta"
+    },
+    {
+      "id": 2,
+      "name": "Bandung"
+    },
+    {
+      "id": 3,
+      "name": "Jogja"
+    },
+    {
+      "id": 4,
+      "name": "Medan"
+    }
+  ]
+}
