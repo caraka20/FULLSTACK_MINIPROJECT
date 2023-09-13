@@ -24,6 +24,7 @@ const EventDetail = () => {
     user_id: idUser,
   });
   const [hargaDiscount, setHargaDiscount] = useState(0);
+  const [disbaleBtn, setDisableBtn] = useState(false)
   // const [message, setMessage] = useState("")
 
   const reff = useRef();
@@ -55,6 +56,7 @@ console.log(buySaldo);
       setHargaDiscount(
         dataEvent.biaya - dataEvent.biaya * (dataEvent.discount / 100)
       );
+      setDisableBtn(true)
     } catch (error) {
       console.log(error);
       toast.error(error.response.data.message);
@@ -78,11 +80,8 @@ console.log(buySaldo);
             ? hargaDiscount.toLocaleString()
             : dataEvent.biaya.toLocaleString()),
       });
-      
+      setDisableBtn(false)
       getApi();
-      // setTimeout(() => {
-      //   window.location.reload()
-      // }, 2000);
     } catch (error) {
       toast.error(error.response.data.message);
       console.log(error);
@@ -161,7 +160,7 @@ console.log(buySaldo);
             <Button
               classname="w-full bg-cyan-700 rounded-xl text-white font-bold mt-0 mb-[50px]"
               onClick={() => cekReferal(reff.current.value)}
-              // disabled={btnReff}
+              disabled={disbaleBtn}
             >
               Apply Refferal
             </Button>
@@ -222,7 +221,7 @@ console.log(buySaldo);
                 <Button
                 classname="w-full bg-cyan-700 rounded-xl text-white font-bold mt-0 mb-[50px]"
                 onClick={handleBuySaldo}
-                // disabled={btnDisable}
+                // disabled={disbaleBtn}
               >
                 Buy
               </Button>
@@ -231,14 +230,14 @@ console.log(buySaldo);
                 <Button
                 classname="w-full bg-cyan-700 rounded-xl text-white font-bold mt-0 mb-[50px]"
                 onClick={handleBuySaldo}
-                // disabled={btnDisable}
+                // disabled={disbaleBtn}
               >
                 Buy By Saldo
               </Button>
               <Button
                 classname="hover:bg-cyan-700   w-full hover:text-white  rounded-xl border-cyan-700  border-[2px] text-black font-bold mt-0 mb-[50px]"
                 onClick={handleBuyPoint}
-                // disabled={btnDisable}
+                // disabled={disbaleBtn}
               >
                 Buy Dengan 3 Point
               </Button>

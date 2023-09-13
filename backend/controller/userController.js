@@ -129,7 +129,7 @@ module.exports = {
 
       await transporter.sendMail({
         from: "paa ajah",
-        to: "carakawijaya20@gmail.com",
+        to: email,
         subject: "Regisster Success",
         html: newTemplateEmail,
       });
@@ -138,7 +138,7 @@ module.exports = {
 
       res.status(200).send({
         isError: false,
-        message: "berhasil mendaftar",
+        message: "berhasil mendaftar, Cek Email!",
         data: createUser,
       });
     } catch (error) {
@@ -157,6 +157,10 @@ module.exports = {
 
       if (findUser.password !== password) {
         throw { status: 409, message: "Pasword Yang Anda Masukan Salah" };
+      }
+
+      if (findUser.status != "OK") {
+        throw {status : 409, message : "Harus Konfirmasi Akun Dulu, Cek Email!!!"}
       }
 
       res.status(200).send({
@@ -291,7 +295,7 @@ module.exports = {
       });
       // console.log(getDataStatus);
       if (getDataStatus === null) {
-        throw { message: "Code nya beda woy" };
+        throw { message: "Code Salah" };
       }
 
       await db.user.update(
@@ -306,7 +310,7 @@ module.exports = {
 
       res.status(200).send({
         isError: false,
-        message: "success",
+        message: "Berhasil",
         data: null,
       });
     } catch (error) {

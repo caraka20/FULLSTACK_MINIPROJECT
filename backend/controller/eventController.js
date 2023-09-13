@@ -27,12 +27,10 @@ module.exports = {
         !time ||
         !detail_lokasi ||
         !jenis_event ||
-        biaya < 0 ||
         !image_link ||
         !max_peserta ||
         !deskripsi_singkat ||
-        !deskripsi_detail ||
-        discount < 0
+        !deskripsi_detail
       ) {
         throw { message: "Data Tidak Lengkap backend" };
       }
@@ -310,7 +308,7 @@ module.exports = {
       if (dataReferal && dataReferal.event_id != dataEvent.id) {
         return res.status(409).send({
           isError: true,
-          message: "Kode Referal Tidak Sesuaii",
+          message: "Kode Referal Harus Di Event Yang Sama",
         });
       }
     } catch (error) {
@@ -322,9 +320,9 @@ module.exports = {
         );
     }
 
-    // 6.1. validasi tidak bisa pakai kode referal sendiri
+    // 6.1. validasi tidak bisa pakai kode referal sendir
     try {
-      if (dataReferal && dataReferal.user_id === idUser) {
+      if (dataReferal && dataReferal.dataValues.user_id == idUser) {
         return res.status(409).send({
           isError: true,
           message: "Gaboleh Pakai Kode Referal Sendiri Ya Bang",

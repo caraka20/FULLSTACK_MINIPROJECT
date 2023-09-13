@@ -212,7 +212,7 @@ setRate(rateBintang);
                           scope="row"
                           className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
                         >
-                          {value.nama_event}
+                          <Link to={`/review/${value.id}`}>{value.nama_event}</Link>
                         </th>
                         <td className="px-4 py-2">
                           {value.max_peserta}

@@ -7,22 +7,22 @@ import Swal from "sweetalert2";
 
 const CreateEvent = (props) => {
   const [disable, setDisable] = useState(0);
+  const [userId, setUserId] = useState(localStorage.getItem("user_id"))
   const [input, setInput] = useState({
     nama_event: "",
     date: "",
     time: "",
     biaya: "",
     image_link: "",
-    max_peserta: null,
+    max_peserta: 0,
     deskripsi_singkat: "",
     deskripsi_detail: "",
-    discount: null,
-    // email_pembuat_acara: props.pengguna,
+    discount: 0,
     detail_lokasi: "",
     kota_id: null,
     kategori_event_id: null,
     jenis_event: "",
-    user_id: localStorage.getItem("user_id"),
+    user_id: userId,
   });
 
   const onCreate = async (e) => {
@@ -36,9 +36,8 @@ const CreateEvent = (props) => {
         input.deskripsi_singkat == "" ||
         input.date == "" ||
         input.time == "" ||
-        input.biaya == null ||
-        input.max_peserta < 0 ||
-        input.discount < 0 ||
+        input.biaya < 0 ||
+        input.max_peserta <= 0 ||
         input.kategori_event_id == null ||
         input.kota_id == null ||
         input.jenis_event == "" ||
@@ -60,22 +59,26 @@ const CreateEvent = (props) => {
         title: "Selamat . . .",
         text: res.data.message,
       });
-    //   setInput({
-    //     nama_event: "",
-    //     date: "",
-    //     time: "",
-    //     biaya: null,
-    //     image_link: "",
-    //     max_peserta: null,
-    //     deskripsi_singkat: "",
-    //     deskripsi_detail: "",
-    //     discount: null,
-    //     detail_lokasi: "",
-    //     kategori_event_id: null,
-    //     kota_id : null,
-    //     jenis_event: "",
-    //   });
+      setInput({
+        nama_event: "",
+        date: "",
+        time: "",
+        biaya: "",
+        image_link: "",
+        max_peserta: 0,
+        deskripsi_singkat: "",
+        deskripsi_detail: "",
+        discount: 0,
+        detail_lokasi: "",
+        kategori_event_id: null,
+        kota_id : null,
+        jenis_event: "",
+      });
+      setTimeout(() => {
+        window.location.reload()
+      }, 2000);
     } catch (error) {
+      console.log(error);
       return Swal.fire({
         icon: "error",
         title: "Oops...",
@@ -86,7 +89,9 @@ const CreateEvent = (props) => {
   };
 
   const handleChange = (e) => {
+    // console.log(userId);
     const newInput = { ...input };
+    newInput["user_id"] = localStorage.getItem("user_id")
     if (input.biaya == null || input.biaya == 0) {
       newInput["discount"] = "";
       setInput(newInput);
@@ -123,7 +128,7 @@ const CreateEvent = (props) => {
       }
     }
   };
-
+  console.log(input);
   return (
     <div className="">
       <Toaster />
@@ -232,7 +237,7 @@ const CreateEvent = (props) => {
             name="kategori_event_id"
             className="mb-6 text-sm border rounded w-full text-slate-700 placeholder:opacity-50"
           >
-            <option>Kategori Event</option>
+            <option disabled selected>Kategori Event</option>
             <option value="1">Anime</option>
             <option value="2">Seni</option>
             <option value="3">Olahraga</option>
@@ -246,7 +251,7 @@ const CreateEvent = (props) => {
             name="kota_id"
             className="mb-6 text-sm border rounded w-full py-2 px-3 text-slate-700 placeholder:opacity-50"
           >
-            <option>Pilih Kota</option>
+            <option disabled selected>Pilih Kota</option>
             <option value="1">Jakarta</option>
             <option value="2">Bogor</option>
             <option value="3">Tangerang</option>
@@ -259,7 +264,7 @@ const CreateEvent = (props) => {
             name="jenis_event"
             className="mb-6 text-sm border rounded w-full py-2 px-3 text-slate-700 placeholder:opacity-50"
           >
-            <option>Online / Ofline</option>
+            <option disabled selected>Online / Ofline</option>
             <option value="online">Online</option>
             <option value="ofline">Ofline</option>
           </select>

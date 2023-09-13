@@ -46,6 +46,8 @@ const CardTiket = () => {
     getApi();
   }, []);
 
+  // console.log(datas);
+
   if (datas === null) {
     return <h1>LOADING</h1>;
   }
@@ -65,6 +67,7 @@ const CardTiket = () => {
   };
 
   // console.log(dataFilter);
+  console.log(datas);
   return (
     <div>
       {/* pencarian */}
@@ -175,9 +178,10 @@ const CardTiket = () => {
                     <span className=" block overflow-auto mt-2 mb-2 h-9 text-sm font-light text-gray-700 dark:text-gray-400">
                       {value.kota}, {value.detail_lokasi}{" "}
                     </span>
-                    <span className=" overflow-auto block mt-2 mb-2 h-8 text-xs text-gray-700 dark:text-gray-400">
-                      {value.deskripsi_singkat}
+                    <span className=" overflow-auto block mt-2 h-8 text-xs text-gray-700 dark:text-gray-400">
+                    {value.deskripsi_singkat}
                     </span>
+                    <span className="text-center font-serif text-sm">Created By : {value.user_id == pembeliId ? <span className="text-red-600">You</span> : value.pembuat_event}</span>
                     <span className=" font-normal text-gray-700 dark:text-gray-400">
                       {value.biaya == 0 ? (
                         <span className="flex justify-center text-green-500">
