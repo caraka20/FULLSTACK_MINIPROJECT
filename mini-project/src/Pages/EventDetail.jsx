@@ -24,11 +24,11 @@ const EventDetail = () => {
     user_id: idUser,
   });
   const [hargaDiscount, setHargaDiscount] = useState(0);
-  const [disbaleBtn, setDisableBtn] = useState(false)
+  const [disbaleBtn, setDisableBtn] = useState(false);
   // const [message, setMessage] = useState("")
 
   const reff = useRef();
-console.log(buySaldo);
+  console.log(buySaldo);
   const getApi = async () => {
     try {
       const res = await axios.get(
@@ -56,7 +56,7 @@ console.log(buySaldo);
       setHargaDiscount(
         dataEvent.biaya - dataEvent.biaya * (dataEvent.discount / 100)
       );
-      setDisableBtn(true)
+      setDisableBtn(true);
     } catch (error) {
       console.log(error);
       toast.error(error.response.data.message);
@@ -80,7 +80,7 @@ console.log(buySaldo);
             ? hargaDiscount.toLocaleString()
             : dataEvent.biaya.toLocaleString()),
       });
-      setDisableBtn(false)
+      setDisableBtn(false);
       getApi();
     } catch (error) {
       toast.error(error.response.data.message);
@@ -216,37 +216,33 @@ console.log(buySaldo);
             </div>
 
             <div className="grid grid-cols-2 gap-10">
-              {dataEvent.biaya == 0 ? 
-              (
+              {dataEvent.biaya == 0 ? (
                 <Button
-                classname="w-full bg-cyan-700 rounded-xl text-white font-bold mt-0 mb-[50px]"
-                onClick={handleBuySaldo}
-                // disabled={disbaleBtn}
-              >
-                Buy
-              </Button>
+                  classname="w-full bg-cyan-700 rounded-xl text-white font-bold mt-0 mb-[50px]"
+                  onClick={handleBuySaldo}
+                  // disabled={disbaleBtn}
+                >
+                  Buy
+                </Button>
               ) : (
                 <>
-                <Button
-                classname="w-full bg-cyan-700 rounded-xl text-white font-bold mt-0 mb-[50px]"
-                onClick={handleBuySaldo}
-                // disabled={disbaleBtn}
-              >
-                Buy By Saldo
-              </Button>
-              <Button
-                classname="hover:bg-cyan-700   w-full hover:text-white  rounded-xl border-cyan-700  border-[2px] text-black font-bold mt-0 mb-[50px]"
-                onClick={handleBuyPoint}
-                // disabled={disbaleBtn}
-              >
-                Buy Dengan 3 Point
-              </Button>
-              </>
-              )
-            }
-
+                  <Button
+                    classname="w-full bg-cyan-700 rounded-xl text-white font-bold mt-0 mb-[50px]"
+                    onClick={handleBuySaldo}
+                    // disabled={disbaleBtn}
+                  >
+                    Buy By Saldo
+                  </Button>
+                  <Button
+                    classname="hover:bg-cyan-700   w-full hover:text-white  rounded-xl border-cyan-700  border-[2px] text-black font-bold mt-0 mb-[50px]"
+                    onClick={handleBuyPoint}
+                    // disabled={disbaleBtn}
+                  >
+                    Buy Dengan 3 Point
+                  </Button>
+                </>
+              )}
             </div>
-
           </div>
         )}
       </div>

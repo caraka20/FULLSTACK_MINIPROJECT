@@ -194,6 +194,7 @@ module.exports = {
           isError: false,
           message: "Berhasil Membeli",
           data: dataCetakTiket,
+          // price:
         });
       }
     } catch (error) {
